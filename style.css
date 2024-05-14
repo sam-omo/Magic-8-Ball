@@ -1,0 +1,35 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 30px auto;
+  padding: 5px 50px;
+  width: 550px;
+  border-radius: 25px;
+}
+
+#question-inp {
+  width: 550px;
+  padding: 10px 0px;
+  color: green;
+}
+
+#answer {
+  color: green;
+}
+
+#magic-8-ball {
+  display: flex;
+  margin: auto;
+  background: rgba(255, 255, 255, 0);
+  border: 0px;
+}
+
+#magic-8-ball:hover {
+  cursor: pointer;
+}
